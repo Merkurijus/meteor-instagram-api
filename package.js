@@ -18,7 +18,8 @@ Package.onUse(function(api) {
   api.use([
     'templating',
     'ecmascript',
-    'http'
+    'http',
+    'service-configuration',
     ]);
   // 3rd party
   // api.use([
