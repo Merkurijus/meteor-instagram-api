@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'tapfuse:meteor-instagram-api',
+  name: 'tapfuse:instagram-api',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',

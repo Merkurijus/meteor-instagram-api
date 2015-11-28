@@ -1,0 +1,29 @@
+/* Javascript linting configuration (Meteor)
+ *
+ * Documentation on rules can be found at:
+ * http://eslint.org/docs/rules/ <- Optionally append the rulename
+ *
+*/
+
+{
+  "extends": [".eslintrc-meteor"],
+  "env": {},
+  "rules": {
+/**
+ * Meteor Specific Overrides
+ */
+    "no-undef": 0,
+    "no-unused-vars": 0,
+/**
+ * Style Overrides
+ */
+    "comma-dangle": [2, "always-multiline"],
+    "quotes": [
+      2, "single", "avoid-escape"    // http://eslint.org/docs/rules/quotes
+    ],
+/**
+  * App Specific Overrides
+  */
+
+  }
+}
