@@ -1,10 +1,8 @@
 Package.describe({
   name: 'tapfuse:instagram-api',
-  version: '0.0.1',
-  // Brief, one-line summary of the package.
-  summary: '',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
+  version: '1.0.0',
+  summary: 'Instagram API wrapper for Meteor',
+  git: 'https://github.com/TapFuse/meteor-instagram-api.git',
   documentation: 'README.md'
 });
 
@@ -15,18 +13,12 @@ var CS = [C, S];
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.1');
   // Core
-  api.use([
-    'templating',
-    'ecmascript',
-    'http',
-    'service-configuration',
-    ]);
-  // 3rd party
-  // api.use([
-  //   ]);
+  api.use(['templating','ecmascript','http','service-configuration',]);
 
+  // Files
   api.addFiles('lib/tp-meteor-instagram-api-server.js', CS);
 
+  // Export
   api.export('InstagramApi');
 });
 
