@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # Instagram API wrapper for Meteor
 
 ## Available functions:
